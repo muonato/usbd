@@ -8,7 +8,7 @@
 # 		'powershell.exe -windowstyle hidden -file detect-usb.ps1' to hide
 # 		'Unregister-Event -SourceIdentifier USBDrive' to halt event mgmt after use
 #
-# Article:
+# Reference:
 #     https://stackoverflow.com/questions/21805166/start-powershell-script-when-usb-drive-is-inserted
 
 $Action = { Invoke-Expression "& type .\notice.txt|msg.exe *"; };
