@@ -1,4 +1,5 @@
 # Detect USB drive insertion / removal
+# muonato/usbd @ GitHub (10-FEB-2023)
 #
 # Powershell snippet to notify the user with popup message (msg.exe) on USB drive
 # insertion and removal. Message should be included in a file called 'notice.txt'
