@@ -6,8 +6,8 @@ insertion and removal. Message should be included in a file called 'notice.txt'
 
 Examples:
 ```
-    'powershell.exe -windowstyle hidden -file detect-usb.ps1' to hide
-     'Unregister-Event -SourceIdentifier USBDrive' to halt event mgmt after use
+    CMD 'powershell.exe -windowstyle hidden -file detect-usb.ps1' to hide
+    PS> 'Unregister-Event -SourceIdentifier USBDrive' to halt event mgmt after use
 ```
 Reference:
     https://stackoverflow.com/questions/21805166/start-powershell-script-when-usb-drive-is-inserted
