@@ -1,8 +1,7 @@
 # USB Drive Detect
 Send Win10 pop-up message on USB drive insertion
 
-Powershell snippet to notify the user with popup message (msg.exe) on USB drive
-insertion and removal. Message should be included in a file called 'notice.txt'
+Powershell snippet to notify the user with popup message (msg.exe) on USB drive insertion and removal. Possible use cases for company policy reminders or security notifications. Message should be included in a file called 'notice.txt'
 
 Examples:
 ```
